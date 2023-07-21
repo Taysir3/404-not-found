@@ -1,0 +1,76 @@
+* {
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    max-width: 1720px;
+}
+
+header {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 40px auto auto 220px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin: 100px 200px;
+    justify-content: center;
+}
+
+.title {
+    color: #333;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -2.24px;
+}
+
+.description {
+    color: #4F4F4F;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.84px;
+    width: 381px;
+}
+
+button {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    background: #333;
+    padding: 24px 40px;
+    border: none;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.image img {
+    width: 90%;
+}
+
+@media screen and (max-width:576px) {
+    
+    header {
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        margin: 60px 0px;
+    }
+    .main {
+        flex-direction: column;
+        gap: 10px;
+        margin: 60px 20px;
+    }
+    .title {
+        width: 400px;
+    }
+    .image img {
+        width: 400px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
